@@ -1,0 +1,655 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="900dp"
+    android:background="@drawable/bg2"
+    tools:openDrawer="start"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+
+        android:id="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/transparent_round_corner">
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/backbutton" />
+
+
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center"
+            android:background="@android:color/black"/>
+
+
+
+        <ImageView
+
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="65dp"
+
+            android:src="@drawable/ironhubfinal2" />
+
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="21dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="75dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/search3" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_x="0dp"
+        android:layout_y="48dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/transparent_round_corner">
+
+
+                <LinearLayout
+                    android:layout_width="338dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="1dp"
+                    android:background="@android:color/black"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:paddingTop="4dp"
+                        android:text="Turn your struggle into power."
+                        android:textColor="@android:color/white"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+
+                        android:text="We ensure your best experience."
+                        android:textColor="@color/orange"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:orientation="vertical"
+
+
+                >
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="225dp"
+
+                    android:layout_gravity="center_horizontal"
+
+
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_black_corner"
+                    android:src="@drawable/back10" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@android:color/transparent"
+
+                android:text="What are your goals?"
+
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Here you will find your desired routine."
+                    android:textColor="@color/darkfont"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Take a look."
+                    android:textColor="@color/orange"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+
+                android:layout_width="323.5dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/orange">
+
+                <LinearLayout
+
+
+                    android:layout_width="321dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="1dp"
+
+                    android:background="@color/transparent">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:text="Choose Your Plan"
+                        android:textAlignment="center"
+
+
+                        android:textColor="@color/orange"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <ImageButton
+
+                android:id="@+id/lose_Fat_Button"
+                android:layout_width="420dp"
+                android:layout_height="209dp"
+                android:layout_marginTop="20dp"
+
+
+                android:src="@drawable/lose_weight3"
+
+                />
+
+            <Button
+                android:id="@+id/lose_fat_text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Lose Fat "
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="The perfect guidance you will need to lose your"
+                    android:textColor="@color/darkfont"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" extra fat."
+                    android:textColor="@color/orange"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/gain_Muscle_Button"
+                android:layout_width="420dp"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/gain_muscle"
+
+                />
+
+            <Button
+                android:id="@+id/gain_muscle_text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Gain Lean Muscle "
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="This is the definitive guide to building muscle"
+                    android:textColor="@color/darkfont"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" naturally."
+                    android:textColor="@color/orange"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+
+            <ImageButton
+                android:id="@+id/gain_weight_imageButton"
+                android:layout_width="420dp"
+                android:layout_height="202dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/round_black_corner"
+                android:src="@drawable/gain_weight2" />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Gain Weight "
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="7dp"
+
+                android:paddingBottom="7dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="This article outlines a simple strategy to quickly "
+                        android:textColor="@color/darkfont"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="gain weight."
+                        android:textColor="@color/orange"
+                        android:textSize="12dp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <ImageButton
+                android:id="@+id/foodlist1"
+                android:layout_width="420dp"
+                android:layout_height="202dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/round_black_corner"
+                android:src="@drawable/foodlistchoosegoals" />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Food Chart "
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="7dp"
+
+                android:paddingBottom="7dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="A foodlist that will help you maintain your  "
+                        android:textColor="@color/darkfont"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="macros."
+                        android:textColor="@color/orange"
+                        android:textSize="12dp"
+                       />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <ImageButton
+                android:id="@+id/myths_button"
+                android:layout_width="420dp"
+                android:layout_height="202dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/round_black_corner"
+                android:src="@drawable/myths" />
+
+            <Button
+                android:id="@+id/gain_weight_text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Fitness Myths "
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="7dp"
+
+                android:paddingBottom="7dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Common misconcepts which are called the"
+                        android:textColor="@color/darkfont"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="fitness myths."
+                        android:textColor="@color/orange"
+                        android:textSize="12dp"
+                        android:layout_marginStart="5dp"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="211dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/orange"
+                >
+
+
+                <Button
+                    android:id="@+id/go_back_button"
+                    android:layout_width="209dp"
+                    android:layout_height="29dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="1dp"
+                    android:background="@android:color/black"
+                    android:text="Go Back"
+                    android:textAllCaps="false"
+                    android:textColor="@color/orange"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</AbsoluteLayout>

@@ -1,0 +1,368 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:background="@drawable/bg2"
+
+    tools:context=".MainActivity"
+    >
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="585dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="2dp"
+        android:layout_y="1dp">
+
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_y="72dp"
+            android:orientation="vertical">
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="118dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Building a wider back gives you that aesthetic look and the V taper everyone wants.It is also benificial for your back strength and posture.\n\n\n\n\n"
+
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="1.Rear delt cable fly"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="JENKmsEZQO8"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="This is by far the best exercise to get the mind muscle connection with your anterior or rear delt.It contracts the muscle optimally that gives it a nice pump blood flow to the muscle "
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="2.Reverse pec deck"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="6yMdhi2DVao"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="133dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Another nice workout for rear delts as many of us neglect work on the muscles we cant see from the front."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="3.Side Lateral Raise"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="v_ZkxWzYnMc"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="The side lateral raise is one the best exercises for side delts.The side delts gives you that nice rounded wide boulder shoulder muscular look."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="4.Coach Greg special"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="hDP6TuDOxes"
+                app:autoPlay="false"
+
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="169dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Just listen to him.Here he ranks 3 best and worst exercises to do for shoulder growth.Every information here will benefit you and keep you safe from getting injured."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="5.Henry Cavil special"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="tSzlgybdkFA"
+                app:autoPlay="false"
+
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="This is how Henry cavil trained for his show witcher on the netflix.His shoulder workout routine is kind of impressive that you can add in your workout session"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</AbsoluteLayout>

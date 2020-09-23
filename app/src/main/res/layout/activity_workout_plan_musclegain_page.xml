@@ -1,0 +1,112 @@
+
+
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:background="@drawable/bg2"
+
+    tools:context=".MainActivity"
+    >
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="729dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="2dp"
+        android:layout_y="1dp">
+
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_y="72dp"
+            android:orientation="vertical">
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp" />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <Button
+                android:layout_marginTop="170dp"
+                android:id="@+id/upperbody_button"
+                android:layout_width="178dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="1.5dp"
+                android:background="@drawable/round_transparent_corner"
+                android:text="Upper Body"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="16dp" />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+            <Button
+                android:id="@+id/lowerbody_button"
+                android:layout_width="178dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="1.5dp"
+                android:background="@drawable/round_transparent_corner"
+                android:text="Lower Body"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="16dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+            <Button
+                android:id="@+id/goldenfive_button"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="1.5dp"
+                android:background="@drawable/round_transparent_corner"
+                android:text="Golden Five"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</AbsoluteLayout>
+
+
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/black"
+    tools:context="com.example.ironparadise.LogIn">
+
+
+
+    <LinearLayout
+
+        android:id="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/transparent_round_corner">
+
+
+
+
+
+
+        <ImageView
+
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+
+            android:src="@drawable/ironhubfinal2" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:background="@drawable/transparent_round_corner"
+        android:layout_marginTop="30dp"
+        android:paddingStart="10dp"
+        android:id="@+id/signInEmailEditTextId"
+        android:hint="Enter your email address :"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="@color/font"
+        android:textColor="@color/font"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:inputType="textEmailAddress"
+        android:textSize="14dp"/>
+
+    <EditText
+        android:background="@drawable/transparent_round_corner"
+        android:paddingStart="10dp"
+        android:id="@+id/signInPasswordEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password :"
+        android:textSize="14dp"
+        android:textColor="@color/font"
+        android:ems="10"
+        android:textColorHint="@color/font"
+        android:layout_marginBottom="60dp"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="211dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/orange"
+        >
+
+
+        <Button
+            android:id="@+id/logInButtonId"
+            android:layout_width="209dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/black"
+            android:text="Log in"
+            android:textAllCaps="false"
+            android:textColor="@color/orange"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:textSize="14dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/font"
+        android:id="@+id/signUptextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haven't registered yet??Then please click here for register." />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/progressBarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

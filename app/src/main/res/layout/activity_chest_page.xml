@@ -1,0 +1,367 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:background="@drawable/bg2"
+
+    tools:context=".MainActivity"
+    >
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="585dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="2dp"
+        android:layout_y="1dp">
+
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_y="72dp"
+            android:orientation="vertical">
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="The chest muscles are one few of the bigger muscles of our body. building a strong chest will make us look strong and healthy and boost our confidence.\n\n\n\n\n"
+
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="1.Flat Bench Press"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="rT7DgCr-3pg"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Always remember never to ego lift. Start your journey with light weights.Then as you grow stronger increase the weight."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="2.Incline Dumbbell Press"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="0G2_XV7slIg"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="133dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="This exercise will hit your upper pectorial muscles.It's very effective for overall chest building routine"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="3.Cable Flies"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="6BfZ2o3jDQo"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="174dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Cable flies are brilliant for your entire chest.The pump and the squeeze is real.But you have to keep it in mind that you can not put too much weight when doing it. It is a movement that will condition your muscle it is not for strength building."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="4.Push ups"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="IODxDxX7oi4"
+                app:autoPlay="false"
+
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="169dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="A brilliant bodyweight workout that can be done anywhere anytime.Keep your posture right to get maximum results.In this video you will get everything you need to know about push ups"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="5.Dips"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="vi1-BOcj3cQ"
+                app:autoPlay="false"
+
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Dips are brilliant for shaping the chest, the square cut you can see in a chiseled chest.It Works mostly on your mid and lower pectorial muscles"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</AbsoluteLayout>

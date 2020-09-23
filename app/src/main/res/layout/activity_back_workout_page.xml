@@ -1,0 +1,367 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:background="@drawable/bg2"
+
+    tools:context=".MainActivity"
+    >
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="585dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="2dp"
+        android:layout_y="1dp">
+
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_y="72dp"
+            android:orientation="vertical">
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Building a wider back gives you that aesthetic look and the V taper everyone wants.It is also benificial for your back strength and posture.\n\n\n\n\n"
+
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="1.Lat pull down"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="O94yEoGXtBY"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="The Lat pull down is the best exercise for yout back width.It is not very hard to perform and you can hit different back muscles by changing your grip"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="2.Dumbbell Rows"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="EEFHHOCfHgw"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="133dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Dumbbell rows are good for your lats and traps and also you can hit the real delt if you focus more on the real delt muscles."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="3.Pull up"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="3YvfRx31xDE"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="174dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="As we all know pull is the best bodyweight exercise for your overall back muscle development.It is a compund exercise that targets multiple muscles at  the same time."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="4.Deadlift"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="hOCg7_taRzg"
+                app:autoPlay="false"
+
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="169dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Though deadlift is a mainly leg workout that targets your hamstring and glutes mostly but it also strengthens your lower back if you perform it correctly."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line"/>
+
+
+
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="5.Coach Greg special"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="6_xDB8oMkKE"
+                app:autoPlay="false"
+
+                app:showYouTubeButton="false"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Coach Greg is the best out there.He gives the best and correct information about everything."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</AbsoluteLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222426</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="ironParadise">#03DAC5</color>
+    <color name="backMain">#2f3133</color>
+    <color name="toolBarColor">#323232</color>
+    <color name="ironParadiseFont">#f5f5e9</color>
+    <color name="nav_header_color">#0b120b</color>
+    <color name="nav_header_bottom_color">#E8023A59</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#151515</color>
+    <color name="font">#DCE1E1E1</color>
+    <color name="orange">#FA9D3A</color>
+    <color name="darkfont">#919191</color>
+    <color name="darkerfont">#6A6A6A</color>
+    <color name="line">#353535</color>
+    <color name="fonter">#DCC5C5C5</color>
+</resources>

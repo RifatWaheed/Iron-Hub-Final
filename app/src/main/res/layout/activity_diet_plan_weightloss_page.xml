@@ -1,0 +1,285 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:background="@drawable/bg2"
+
+    tools:context=".MainActivity"
+    >
+
+
+
+
+    <LinearLayout
+
+        android:id="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/transparent_round_corner">
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/backbutton" />
+
+
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center"
+            android:background="@android:color/black"/>
+
+
+
+        <ImageView
+
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="65dp"
+
+            android:src="@drawable/ironhubfinal2" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_x="0dp"
+        android:layout_y="48dp">
+
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_y="72dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="@string/lose_fat_diet_plan_text"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="1.Protein:"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+            <ImageView
+                android:id="@+id/workout_plan_weightloss_button"
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/protein12"
+                android:background="@drawable/round_black_corner"
+                android:stateListAnimator="@null"
+                android:text="Workout Plan"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="@string/proteintxt"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="2.Calorie dense foods"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+
+                android:background="@drawable/junk_food"
+                android:stateListAnimator="@null"
+                android:text="Workout Plan"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="258dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="@string/calorie_dense_food"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="2.Fibre rich foods"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+
+                android:background="@drawable/high_fibre"
+                android:stateListAnimator="@null"
+                android:text="Workout Plan"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="167dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="@string/fibre"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/recommended_foodlist_button"
+                android:layout_width="178dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="1.5dp"
+                android:background="@drawable/round_transparent_corner"
+                android:text="Recommended foodlist"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</AbsoluteLayout>

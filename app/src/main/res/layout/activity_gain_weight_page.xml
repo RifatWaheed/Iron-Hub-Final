@@ -1,0 +1,364 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:background="@drawable/bg2"
+
+    tools:context=".MainActivity"
+    >
+
+
+
+
+    <LinearLayout
+
+        android:id="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/transparent_round_corner">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <ImageView
+
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+
+
+            android:src="@drawable/ironhubfinal2" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_x="0dp"
+        android:layout_y="48dp">
+
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_y="72dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Gaining weight is pretty easy if you don't have any special medical condition where you need to visit a doctor.All you have to do is eat more, be in a calorie surplus and working out 3 days a week should be enough.But there are some points you should keep in mind "
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="1.Eat high calorie healthy foods"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+            <ImageView
+                android:id="@+id/workout_plan_weightloss_button"
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/gainweight1"
+                android:background="@drawable/round_black_corner"
+                android:stateListAnimator="@null"
+                android:text="Workout Plan"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Eating high calorie foods will get you to that 300 calorie surplus goals.Foods like rice, eggs,milk and nuts are filled with nutrition and are high in calorie."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="2.Healthy Fats"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+
+                android:background="@drawable/gainweight2"
+                android:stateListAnimator="@null"
+                android:text="Workout Plan"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Eating healthy fats are as important as eating any other food. These foods are high in calorie and they won't make you feel full so easily. Foods like nuts, avocado, yougurt and oil that has omega 3 etc."
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="2.Shorter eating interval"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+
+                android:background="@drawable/gainweight3"
+                android:stateListAnimator="@null"
+                android:text="Workout Plan"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="167dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Try to eat more often in the entire day.You can eat a small amount but the intervals should be less.Like eat something even if it is an apple or banana within every 2 hours.It will become your habit to eat more. And also try to chew less. It will trick your brain to think that you are eating less. "
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="14dp" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="2.Avoid excessive cardio"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+
+                android:background="@drawable/gainweight4"
+                android:stateListAnimator="@null"
+                android:text="Workout Plan"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="167dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Though cardio is necessary to keep your heart healthy , but as you want to gain weight then you should not do cardio that much.Once in a while is fine but keeping it as minimum as possible should be the target "
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="2.Weight training"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+
+                android:background="@drawable/weightgain5"
+                android:stateListAnimator="@null"
+                android:text="Workout Plan"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="167dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="By gaining weight we don't mean to become obese or a circle. We still need to do weight training to keep our muscle mass and develop them slowly.Thus we will be able to maintain a good healthy physique"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="17dp" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</AbsoluteLayout>

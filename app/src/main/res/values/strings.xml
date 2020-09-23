@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">IRON PARADISE</string>
+    <string name="ironParadise">Iron Paradise</string>
+    <string name="naviigation_drawer_open">Open navigation drawer</string>
+    <string name="naviigation_drawer_close">Close navigation drawer</string>
+
+
+    //eggs
+    <string name="eggs1_description">Eggs are among the healthiest and most nutritious foods available.</string>
+    <string name="eggs2_description">One large egg contains: </string>
+    <string name="eggs3_description">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="eggs4_description">6 grams.\n1.1grams.\n78 cal.\n11 grams.</string>
+
+    //protein
+    <string name="protein_description">Protein is an essential macronutrient, but not all food sources of protein are created equal, and you may not need as much as you think. Learn the basics about protein and shaping your diet with healthy protein foods.</string>
+
+    //peanuts
+    <string name="peanuts_description1">Peanuts are high in protein, fiber, and magnesium. Studies show that they can help you lose weight.100 grams of peanuts contain: \n\nProtein: 26 grams\nCarbohydrates: 16 grams\nCalories: 567.4 kcal\nFat: 49 grams</string>
+    <string name="peanuts_description2">100 grams of peanuts contain: </string>
+    <string name="peanuts_description3">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="peanuts_description4">26 grams.\n16 grams.\n567.4 kcal.\n49 grams.</string>
+
+    //chickpeas
+    <string name="chickpeas1_description">Chickpeas are high in protein and make an excellent replacement for meat in vegetarian and vegan diets.</string>
+    <string name="chickpeas2_description">100 grams of chickpeas contain: </string>
+    <string name="chickpeas3_description">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="chickpeas4_description">19 grams.\n61 grams.\n180 cal.\n6 grams.</string>
+
+    //lentils
+    <string name="lentils_description1">Lentils are among the worlds best sources of plant-based protein, and they’re an excellent choice for vegetarians and vegans.</string>
+    <string name="lentils_description2">100 grams of lentils contain: </string>
+    <string name="lentils_description3">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="lentils_description4">9 grams.\n20 grams.\n116.4 kcal.\n0.4 grams.</string>
+
+    //oats
+    <string name="oats_description1">Oats are among the healthiest grains available.They provide healthy fibers, magnesium, manganese, thiamine (vitamin B1), and several other nutrients.</string>
+    <string name="oats_description2">100 grams of oats contain: </string>
+    <string name="oats_description3">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="oats_description4">13.7 grams.\n66 grams.\n400 cal.\n6 grams.</string>
+
+    //chicken
+    <string name="chicken_description1">Chicken breast is one of the most popular protein-rich foods.If you eat it without the skin, most of its calories come from protein.</string>
+    <string name="chicken_description2">One roasted chicken breast without skin contains: </string>
+    <string name="chicken_description3">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="chicken_description4">31 grams\n0 grams\n164.9 kcal\n3.6 grams</string>
+
+    //almonds
+    <string name="almonds_description1">Almonds are a popular type of tree nut.They are rich in essential nutrients, including fiber, vitamin E, manganese, and magnesium.</string>
+    <string name="almonds_description2">100 grams of almonds contain: </string>
+    <string name="almonds_description3">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="almonds_description4">21 grams.\n22 grams.\n579 cal.\n50 grams.</string>
+
+    //fish
+    <string name="fish_description1">Fish is healthy for various reasons. It’s rich in essential nutrients. Some types are high in heart-healthy omega-3 fatty acids.</string>
+    <string name="fish_description2">100 grams of fish contain: </string>
+    <string name="fish_description3">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="fish_description4">22 grams\n0 grams\n205.8 kcal\n12 grams</string>
+
+    //avocado
+    <string name="avocado_description1">The avocado is a rather unique fruit. While most fruit consists primarily of carbohydrate, avocado is high in protein.</string>
+    <string name="avocado_description2">100 grams of avocado contain: </string>
+    <string name="avocado_description3">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="avocado_description4">2 grams\n9 grams\n160.1 kcal\n15 grams</string>
+
+
+    //beef
+    <string name="beef_description1">Beef offers high amounts of protein per serving. There is a range of different types of beef to choose from for weight loss.</string>
+    <string name="beef_description2">100 grams of beef contain: </string>
+    <string name="beef_description3">Protein: \nCarbohydrates: \nCalories: \nFat: </string>
+    <string name="beef_description4">26 grams\n0 grams\n250.5 kcal\n15 grams</string>
+
+    <string name="carbohydrates_description">Carbohydrates are macronutrients, meaning they are one of the three main ways the body obtains energy, or calories. Though often maligned in trendy diets, carbohydrates — one of the basic food groups — are important to a healthy diet.</string>
+    <string name="rice_description">Rice is a classic side dish and comfort food and has a place in a healthy diet, but it is definitely high in carbs.\n\n100 grams of rice contain: \n\nCarbohydrates: 28 grams\nProtein: 2.7 grams\nCalories: 130 kcal\nFat: 0.2 grams</string>
+    <string name="potatoes_description">Potatoes are considered a starchy vegetable and a healthy carb. They’re high in fiber, low in calories, and include vitamins and minerals.\n\n100 grams of potatoes contain: \n\nCarbohydrates: 17 grams\nProtein: 2 grams\nCalories: 76.7 kcal\nFat: 0.1 grams</string>
+    <string name="bananas_description">Bananas are one of the most popular fruits worldwide. They contain essential nutrients that can have a protective impact on health.\n\n100 grams of bananas contain: \n\nCarbohydrates: 23 grams\nProtein: 1.1 grams\nCalories: 88.7 kcal\nFat: 0.3 grams</string>
+    <string name="broccoli_description">Broccoli is a cruciferous vegetable known for its beneficial health effects. Broccoli is high in many nutrients, including fiber, vitamin C, vitamin K, iron, and potassium. It also boasts more protein than most other vegetables.\n\n100 grams of broccolies contain: \n\nCarbohydrates: 5 grams\nProtein: 2.8 grams\nCalories: 33.7 kcal\nFat: 0.2 grams</string>
+    <string name="apples_description">Apples are a popular fruit, containing antioxidants, vitamins, dietary fiber, and a range of other nutrients. Due to their varied nutrient content, they may help prevent several health conditions.\n\n100 grams of broccolies contain: \n\nCarbohydrates: 14 grams\nProtein: 0.3 grams\nCalories: 52.1 kcal\nFat: 0.2 grams</string>
+    <string name="oranges_description">Oranges are among the world’s most popular fruits. Oranges are also a good source of fiber and are especially rich in vitamin C, potassium and some B vitamins.\n\n100 grams of orranges contain: \n\nCarbohydrates: 12 grams\nProtein: 0.9 grams\nCalories: 47.1 kcal\nFat: 0.1 grams</string>
+    <string name="bread_description">It is true that the carbs and calories in a slice of bread can add up quickly, but it is possible to eat bread and lose weight. In fact, certain types of bread can even be part of a healthy eating plan.\n\n100 grams of bread contain: \n\nCarbohydrates: 49 grams\nProtein: 9 grams\nCalories: 264.6 kcal\nFat: 3.2 grams</string>
+    <string name="corn_description">Corn has several health benefits. Because of the high fiber content, it can aid with digestion. It also contains valuable B vitamins, which are important to your overall health.\n\n100 grams of corn contain: \n\nCarbohydrates: 21 grams\nProtein: 3.4 grams\nCalories: 96 kcal\nFat: 1.5 grams</string>
+
+
+    <string name="fat_description">Fat is a type of nutrient, and just like protein and carbohydrates, your body needs some fat for energy, to absorb vitamins, and to protect your heart and brain health. For years we’ve been told that eating fat will add inches to your waistline, raise cholesterol, and cause a myriad of health problems. But now we know that not all fat is the same.</string>
+    <string name="oil_description">Oils are not a food group, but they do provide essential nutrients and are therefore included in USDA recommendations for what to eat. Note that only small amounts of oils are recommended.\n\n100 grams of oil contain: \n\nFat: 100 grams\nCarbohydrates: 0 grams\nProtein: 0 grams\nCalories: 884.1 kcal</string>
+    <string name="cherese_description">Cheese is a dairy product, derived from milk and produced in wide ranges of flavours, textures and forms by coagulation of the milk protein casein. It comprises proteins and fat from milk, usually the milk of cows, buffalo, goats, or sheep.\n\n100 grams of cheese contain: \n\nFat: 33 grams\nCarbohydrates: 1.3 grams\nProtein: 25 grams\nCalories: 402.5 kcal</string>
+    <string name="chocolates_description">Dark chocolate is one of those rare health foods that actually taste incredible. It is very high in fat.\n\n100 grams of dark chocolate contain: \n\nFat: 46 grams\nCarbohydrates: 27 grams\nProtein: 6 grams\nCalories: 575 cal</string>
+    <string name="fattyfish_description">One of the few animal products that most people agree is healthy, is fatty fish. This includes fish like salmon, trout, mackerel, sardines and herring.\n\n100 grams of fatty fish contain: \n\nFat: 20 grams\nCarbohydrates: 0 grams\nProtein: 39.2 grams\nCalories: 280 cal</string>
+    <string name="nuts_description">Nuts are incredibly healthy. They are high in healthy fats and fiber, and are a good plant-based source of protein.\n\n100 grams of nuts contain: \n\nFat: 54 grams\nCarbohydrates: 21 grams\nProtein: 20 grams\nCalories: 606.8 kcal</string>
+
+
+    //lose_fat
+    <string name="los_fat_text1">If the goal is to lose weight , the whole thing comes down to calorie intake and calorie expenditure.</string>
+    <string name="los_fat_text2">Our body stores energy from the food we eat, and that energy is spent from different physical activities.</string>
+    <string name="los_fat_text3">So everything we do burns those calories. In order to lose fat we have to be in a calorie deficit.</string>
+    <string name="los_fat_text4">Suppose, Daily we maintain 2500 calorie from eating food and this calorie intake does not affect our weight. So this is our maintenance calorie.
+        \nNow If we want to lose weight our calorie intake has to be less than 2500 cal. 300-500 calorie deficiency can be optimum.
+        \nWe can do this by eating less and as well as working out to see faster results.So a good diet and workout plan is essential.</string>
+
+
+    <string name="lose_fat_diet_plan_text">
+        There are few things to keep in mind when dieting for just to lose weight
+        \n\n1.High protein intake
+        \n2.Less calorie dense food
+        \n3.Foods that are rich in fibre
+
+    </string>
+
+
+    <string name="proteintxt">The food we eat takes energy to digest it in our body. Protein has a higher thermic effect of food, means it will take more energy to process the protein
+                                \nso we will be burning more calories by eating more protein. Besides by eating more protein dense foods we easily lose the will
+                                of eating so we will never end up binge eating and control our diet. On top of that protein helps to retain muscle mass and more muscles needs more energy to function thus more calories would be burn.
+                                \n\nCheckout our food list  at the end of this page to see the most available sources of protein including their macro.
+
+
+    </string>
+
+
+    <string name="calorie_dense_food">Foods that are high in calorie but has less nutrient values.Even consuming a small amount
+                                        will cover up your calorie intake greatly but would not make you feel full.There are some calorie dense foods that are healthy
+                                        like avacado and nuts but people usually ruin their diet by having junk foods like pizza and burgers and french fries.
+                                        Another enemy of weightloss is Sugar. Foods that contain high sugar should be avoided like soft drink or donuts and cakes.
+                                        Once in a while consuming these foods can be forgivable but these foods are very adictive so avoiding them is the best option.
+    </string>
+
+
+    <string name="fibre">Foods that are rich in fibre are filled with imoprtant vitamins but most importantly they are low calorie foods and consuming these foods
+                          will make u full easily. These are the green vegetables, lettuce, spinach, broccoli, carrot and also the fruits such as apples,berries,banana etc
+    </string>
+
+
+    <string name="workout_plan_for_weightloss">When the goal is particularly to lose weight, the best form of exercise is Cardio.
+                                                The idea is to keep the heartbeat at a higher rate with taking less intervals between every exercise.The rest period of
+                                                15-30 secs between every set should be optimum.
+                                                \n\nHere are some effective workout routine.
+                                                \n\n
+
+    </string>
+    <string name="firstpageending">The Ironhub team is always updating and adding more contents everyday. Its all here and 100% free. Ironhub is the most complete and revolutionary gym management and fitness app. We are always working towards adding more features that will keep your love for fitness alive and well. Send us feedback if you have any questions/comments. </string>
+
+    <string name="gain_muscle_text1">When it comes to gaining muscle the idea is pretty simple, Eat sufficient amount of protein and avoid bad dietary habits. And train your muscles harder than last time.Slowly but surely you will see amazing results </string>
+    <string name="gain_muscle_text2">After finishing the workout our muscle tissues get damaged.When we rest while sleeping our body repairs those tissues with stronger and larger muscle ones. To do that protein plays the most vital role </string>
+    <string name="gain_muscle_text3">So we have to keep our diet clean with sufficient amount of protein and train safely and most importantly take rest for recovery </string>
+
+
+    //Carbohydrate
+
+    //Rice
+    <string name="rice_description1">Rice is a classic side dish and comfort food and has a place in a healthy diet, but it is definitely high in carbs.</string>
+    <string name="rice_description2">100 grams of rice contain: </string>
+    <string name="rice_description3">Carbohydrates: \nProtein: \nCalories: \nFat: </string>
+    <string name="rice_description4">28 grams\n2.7 grams\n130 kcal\n0.2 grams</string>
+
+    //Potatoes
+    <string name="potatoes_description1">Potatoes are considered a starchy vegetable and a healthy carb. They’re high in fiber, low in calories, and include vitamins and minerals.</string>
+    <string name="potatoes_description2">100 grams of potatoes contain: </string>
+    <string name="potatoes_description3">Carbohydrates: \nProtein: \nCalories: \nFat: </string>
+    <string name="potatoes_description4">17 grams\n2 grams\n76.7 kcal\n0.1 grams</string>
+
+    //bananas
+    <string name="bananas_description1">Bananas are one of the most popular fruits worldwide. They contain essential nutrients that can have a protective impact on health.</string>
+    <string name="bananas_description2">100 grams of bananas contain: </string>
+    <string name="bananas_description3">Carbohydrates: \nProtein: \nCalories: \nFat: </string>
+    <string name="bananas_description4">23 grams\n1.1 grams\n88.7 kcal\0.3 grams</string>
+
+
+    //brocolli
+    <string name="broccoli_description1">Broccoli is a cruciferous vegetable known for its beneficial health effects. Broccoli is high in many nutrients, including fiber, vitamin C, vitamin K, iron, and potassium. It also boasts more protein than most other vegetables.</string>
+    <string name="broccoli_description2">100 grams of broccolies contain: </string>
+    <string name="broccoli_description3">Carbohydrates: \nProtein: \nCalories: \nFat: </string>
+    <string name="broccoli_description4">5 grams\n2.8 grams\n33.7 kcal\n0.2 grams</string>
+
+
+    //apples
+    <string name="apples_description1">Apples are a popular fruit, containing antioxidants, vitamins, dietary fiber, and a range of other nutrients. Due to their varied nutrient content, they may help prevent several health conditions.</string>
+    <string name="apples_description2">100 grams of apples contain: </string>
+    <string name="apples_description3">Carbohydrates: \nProtein: \nCalories: \nFat: </string>
+    <string name="apples_description4">14 grams\n0.3 grams\n52.1 kcal\n0.2 grams</string>
+
+    //orange
+    <string name="oranges_description1">Oranges are among the world’s most popular fruits. Oranges are also a good source of fiber and are especially rich in vitamin C, potassium and some B vitamins.</string>
+    <string name="oranges_description2">100 grams of orranges contain: </string>
+    <string name="oranges_description3">Carbohydrates: \nProtein: \nCalories: \nFat: </string>
+    <string name="oranges_description4">12 grams\n0.9 grams\n47.1 kcal\n0.1 grams</string>
+
+    //bread
+    <string name="bread_description1">It is true that the carbs and calories in a slice of bread can add up quickly, but it is possible to eat bread and lose weight. In fact, certain types of bread can even be part of a healthy eating plan.</string>
+    <string name="bread_description2">100 grams of bread contain: </string>
+    <string name="bread_description3">Carbohydrates: \nProtein: \nCalories: \nFat: </string>
+    <string name="bread_description4">49 grams\n9 grams\n 264.6 kcal\n3.2 grams</string>
+
+    //corn
+    <string name="corn_description1">Corn has several health benefits. Because of the high fiber content, it can aid with digestion. It also contains valuable B vitamins, which are important to your overall health.</string>
+    <string name="corn_description2">100 grams of corn contain: </string>
+    <string name="corn_description3">Carbohydrates: \nProtein: \nCalories: \nFat: </string>
+    <string name="corn_description4">21 grams\n3.4 grams\n96 kcal\n1.5 grams</string>
+
+
+    //Fat
+
+    //oil
+    <string name="oil_description1">Oils are not a food group, but they do provide essential nutrients and are therefore included in USDA recommendations for what to eat. Note that only small amounts of oils are recommended.</string>
+    <string name="oil_description2">100 grams of oil contain: </string>
+    <string name="oil_description3">Fat: \nCarbohydrates: \nProtein: \nCalories: </string>
+    <string name="oil_description4">100 grams\n0 grams\n0 grams\n884.1 kcal</string>
+
+    //cheese
+    <string name="cheese_description1">Cheese is a dairy product, derived from milk and produced in wide ranges of flavours, textures and forms by coagulation of the milk protein casein. It comprises proteins and fat from milk, usually the milk of cows, buffalo, goats, or sheep.</string>
+    <string name="cheese_description2">100 grams of cheese contain: </string>
+    <string name="cheese_description3">Fat: \nCarbohydrates: \nProtein: \nCalories: </string>
+    <string name="cheese_description4">33 grams\n1.3 grams\n25 grams\n402.5 kcal</string>
+
+    //chocolate
+    <string name="chocolates_description1">Dark chocolate is one of those rare health foods that actually taste incredible. It is very high in fat.</string>
+    <string name="chocolates_description2">100 grams of dark chocolate contain: </string>
+    <string name="chocolates_description3">Fat: \nCarbohydrates: \nProtein: \nCalories: </string>
+    <string name="chocolates_description4">46 grams\n27 grams\n6 grams\n575 cal</string>
+
+    //fattyfish
+    <string name="fattyfish_description1">One of the few animal products that most people agree is healthy, is fatty fish. This includes fish like salmon, trout, mackerel, sardines and herring.</string>
+    <string name="fattyfish_description2">100 grams of fatty fish contain: </string>
+    <string name="fattyfish_description3">Fat: \nCarbohydrates: \nProtein: \nCalories: </string>
+    <string name="fattyfish_description4">20 grams\n0 grams\n39.2 grams\n280 cal</string>
+
+    //nuts
+    <string name="nuts_description1">Nuts are incredibly healthy. They are high in healthy fats and fiber, and are a good plant-based source of protein.</string>
+    <string name="nuts_description2">100 grams of nuts contain: </string>
+    <string name="nuts_description3">Fat: \nCarbohydrates: \nProtein: \nCalories: </string>
+    <string name="nuts_description4">54 grams\n21 grams\n20 grams\n606.8 kcal</string>
+
+
+</resources>

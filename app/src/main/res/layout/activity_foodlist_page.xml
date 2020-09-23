@@ -1,0 +1,486 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="900dp"
+    android:background="@drawable/bg2"
+    tools:openDrawer="start"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+
+        android:id="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/transparent_round_corner">
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/backbutton" />
+
+
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center"
+            android:background="@android:color/black"/>
+
+
+
+        <ImageView
+
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="65dp"
+
+            android:src="@drawable/ironhubfinal2" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_x="0dp"
+        android:layout_y="48dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+
+
+                android:layout_width="245.5dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_corner">
+
+                <LinearLayout
+
+
+                    android:layout_width="242dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="1.5dp"
+
+                    android:background="@color/transparent">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:text="Food List"
+                        android:textAlignment="center"
+
+
+                        android:textColor="@color/orange"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/transparent_round_corner">
+
+
+                <LinearLayout
+                    android:layout_width="338dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="1dp"
+                    android:background="@android:color/black"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:paddingTop="4dp"
+                        android:text="Turn your struggle into power."
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+
+                        android:text="We ensure your best experience."
+                        android:textColor="@color/orange"
+                        android:textSize="13dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:orientation="vertical"
+
+
+                >
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="225dp"
+
+                    android:layout_gravity="center_horizontal"
+
+
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_black_corner"
+                    android:src="@drawable/foodlist" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@android:color/transparent"
+
+                android:text="Check our food list here."
+
+                android:textColor="@color/font"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Your desired food containing protein."
+                    android:textColor="@color/darkfont"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Take a look."
+                    android:textColor="@color/orange"
+                    android:textSize="13dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+
+                android:layout_width="323.5dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/white">
+
+                <LinearLayout
+
+
+                    android:layout_width="321dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="1dp"
+
+                    android:background="@color/transparent">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:text="Know Your Food Value"
+                        android:textAlignment="center"
+
+
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <ImageButton
+
+                android:id="@+id/protein_button"
+                android:layout_width="420dp"
+                android:layout_height="209dp"
+                android:layout_marginTop="20dp"
+
+
+                android:src="@drawable/protein3"
+
+                />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Protein "
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="The foods containing high "
+                    android:textColor="@color/darkfont"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" carbs."
+                    android:textColor="@color/orange"
+                    android:textSize="13dp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/carbs_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/carbohydrates"
+
+                />
+
+            <Button
+                android:id="@+id/gain_muscle_text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Carbohydrates "
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="This is the definitive place for natural"
+                    android:textColor="@color/darkfont"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" fat"
+                    android:textColor="@color/orange"
+                    android:textSize="13dp" />
+
+
+            </LinearLayout>
+
+
+            <ImageButton
+                android:id="@+id/fat_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/round_black_corner"
+                android:src="@drawable/fat" />
+
+            <Button
+                android:id="@+id/gain_weight_text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/transparent"
+                android:stateListAnimator="@null"
+                android:text="Fat "
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/font"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="7dp"
+
+                android:paddingBottom="7dp">
+
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/tick"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="This article outlines a simple strategy to quickly "
+                        android:textColor="@color/darkfont"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="gain weight."
+                        android:textColor="@color/orange"
+                        android:textSize="13dp"
+                        android:layout_marginStart="5dp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</AbsoluteLayout>

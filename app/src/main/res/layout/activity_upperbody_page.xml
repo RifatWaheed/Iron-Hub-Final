@@ -1,0 +1,206 @@
+
+
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+
+    tools:context=".MainActivity"
+    >
+
+
+
+    <LinearLayout
+
+        android:id="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/transparent_round_corner">
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/backbutton" />
+
+
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center"
+            android:background="@android:color/black"/>
+
+
+
+        <ImageView
+
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="65dp"
+
+            android:src="@drawable/ironhubfinal2" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="742dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="2dp"
+        android:layout_y="1dp">
+
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_y="72dp"
+            android:orientation="vertical">
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp" />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+
+                />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginTop="20dp"
+
+                />
+
+
+            <Button
+
+                android:id="@+id/chest_button"
+                android:layout_width="178dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="1.5dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/round_transparent_corner"
+                android:text="Chest"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="16dp" />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+            <Button
+                android:id="@+id/back_button"
+                android:layout_width="178dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="1.5dp"
+                android:background="@drawable/round_transparent_corner"
+                android:text="Back muscle"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="16dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+            <Button
+                android:id="@+id/shoulder_button"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="1.5dp"
+                android:background="@drawable/round_transparent_corner"
+                android:text="Shoulder"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="16dp" />
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+            <Button
+                android:id="@+id/arms_button"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="1.5dp"
+                android:background="@drawable/round_transparent_corner"
+                android:text="Arms"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="16dp" />
+
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+
+                />
+
+
+            <Button
+                android:id="@+id/abs_button"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="1.5dp"
+                android:background="@drawable/round_transparent_corner"
+                android:text="Abs"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</AbsoluteLayout>
+
+
+

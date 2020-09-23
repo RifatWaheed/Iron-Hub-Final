@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "716345332626",
+    "firebase_url": "https://ironhub-bb83c.firebaseio.com",
+    "project_id": "ironhub-bb83c",
+    "storage_bucket": "ironhub-bb83c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716345332626:android:3052f1c822d14f14de674b",
+        "android_client_info": {
+          "package_name": "com.example.ironparadise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716345332626-cqlhda5r6h3sh5i27m3dhpmeska764no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw-IpQhvw_KDI4r0h59M6f-1fyAdyDKrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716345332626-cqlhda5r6h3sh5i27m3dhpmeska764no.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
